@@ -490,7 +490,7 @@ contract MAGMA is Context, IBIP20, Ownable {
     
     uint256 private _taxFee = 2;
     uint256 private _burnFee = 1;
-    uint256 private _maxTxAmount = 10000e9;
+    uint256 private _maxTxAmount = 100000e9;
 
     constructor () public {
         _rOwned[_msgSender()] = _rTotal;
